@@ -178,6 +178,9 @@ How to use acronym here \ac{AI}. \\
 How to use acronym here \ac{AI}. \\
 
 
+This is some text about a \index{keyword} keyword that should be in the index.
+
+
 \lipsum[1-5] %to generate filler text 
 ```
 ## Appendix
@@ -307,6 +310,7 @@ How to use acronym here \ac{AI}. \\
 
 \input{7_appendices.tex} 
 
+\printindex
 % Bibliography
 \addcontentsline{toc}{chapter}{\refname}
 \bibliographystyle{plain}
