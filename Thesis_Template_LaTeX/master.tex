@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper, twoside, openright]{book}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{appendix}
+\usepackage{natbib}
+\usepackage{makeidx}
+\usepackage{geometry}
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\newgeometry{
+    top=1in,
+    bottom=1in,
+    outer=1in,
+    inner=1.3in,
+}
+%++++++++++++Hyperspace color++++++++++
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks, 
+  citecolor=blue,
+  linkcolor=red,
+  urlcolor=blue} %remove in the final version of thesis.
+
+\pagestyle{plain}
+\usepackage{acronym}
+\makeindex
+
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR
+}
+
+\titleformat{\chapter}[display] 
+  {\normalfont\bfseries\centering}{\chaptertitlename\ \thechapter}{0pt}{\huge}
+
+% Define a command to add a blank page
+\newcommand{\blankpage}{
+  \clearpage
+  \thispagestyle{empty}
+  \mbox{} 
+  \clearpage
+}
+ 
+\begin{document} 
+\frontmatter
+% Title Page
+% \blankpage
+\input{title_page.tex}
+
+% Certificate
+% \blankpage
+\input{certificate.tex}
+
+% Dedication
+% \blankpage
+\input{dedication.tex}
+
+% Acknowledgement
+% \blankpage
+\input{acknowledgement.tex}
+
+% Abstract
+% \blankpage
+\input{abstract.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Table of Abbreviations
+% \blankpage
+\input{abbreviations}
+
+% Table of Notations
+% \blankpage
+\input{symbol}
+
+\mainmatter
+% Chapter 1
+% \blankpage
+\input{chapter_1.tex}
+
+% Chapter 2
+% \blankpage
+\input{chapter_2.tex}
+
+% Chapter 3
+% \blankpage
+\input{chapter_3.tex}
+
+% Appendices
+% \blankpage
+\backmatter
+
+\input{appendix} 
+
+\printindex
+% Bibliography
+\addcontentsline{toc}{chapter}{\refname}
+\bibliographystyle{plain}
+\bibliography{reference}
+
+% List of Acronyms
+% \blankpage
+% \input{8_acronyms.tex}
+
+% Index
+% \blankpage
+% \input{9_index.tex}
+
+\end{document}
