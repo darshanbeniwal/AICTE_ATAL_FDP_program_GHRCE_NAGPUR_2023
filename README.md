@@ -1,4 +1,4 @@
-# One-week AICTE ATAL FDP on LaTeX and MATHEMATICA-2023 (December 11-16, 2023)
+# One-week AICTE ATAL FDP on LaTeX and MATHEMATICA-2023 (December 11-16, 2023) [🔗](https://www.aicte-india.org/sites/default/files/ATAL/ATAL%20Selected%20FDPs%20AY%202023_24.pdf)
 ### Organized by Department of Physics, G H Raisoni College of Engineering [GHRCE, Nagpur](https://ghrce.raisoni.net/), Nagpur    
 
 I was among the invited resource person and in this repository, I have included all the files, including the data file and Python notebook, that were covered in a lecture session and a hands-on session by me.
