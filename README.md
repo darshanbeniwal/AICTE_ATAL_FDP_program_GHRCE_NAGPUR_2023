@@ -56,8 +56,4 @@ This template is provided in good faith, but the responsibility for meeting acad
 
  ## Contact Email: darshanbeniwal11@gmail.com
  # Copyright  
- © by Darshan Beniwal (December 2023), University of Delhi Presented at Department of Applied Science, G H Raisoni College of Engineering, Nagpur
- 
-
-
-#### darshanbeniwal11@gmail.com
+ © by Darshan Beniwal (December 2023), University of Delhi Presented at Department of Applied Science, G H Raisoni College of Engineering, Nagpur 
